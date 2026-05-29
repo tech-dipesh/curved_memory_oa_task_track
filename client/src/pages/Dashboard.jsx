@@ -103,7 +103,7 @@ export default function Dashboard() {
         <div className="card mt-4">
           <h3 className="mb-3 text-[15px]">today's worked tasks</h3>
           {daily.tasks.map(t => (
-            <div key={t.id} className="flex justify-between items-center py-[7px] border-b border-[#f1f5f9]">
+            <div key={t.id} className="flex justify-between items-center py-1.75 border-b border-[#f1f5f9]">
               <div>
                 <span className="text-[13px] font-medium">{t.title}</span>
                 <span className={`badge badge-${t.status} ml-2`}>{t.status.replace('_', ' ')}</span>
