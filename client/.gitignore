@@ -33,3 +33,4 @@ public/expand-knowledge-ui.png
 public/skills-page-ui.png
 .vercel
 .env*.local
+.env
