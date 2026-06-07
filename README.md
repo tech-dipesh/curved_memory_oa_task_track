@@ -50,3 +50,6 @@ npm run dev
 ![Tasks](assets/tasks.png)
 ![Summary](assets/summary.png)
 ![Signup](assets/signup.png)
+
+## Notes:
+If it's taking too much time to open please wait a bit as it's using a render which make a cold start on free user.
